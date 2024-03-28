@@ -12,7 +12,7 @@ void f_pall(stack_t **stack, unsigned int line_number)
 	current = *stack;
 	if (current == NULL)
 		return;
-	while (current != NULL)
+	while (current)
 	{
 		printf("%d\n", current->n);
 		current = current->next;
