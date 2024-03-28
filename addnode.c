@@ -5,7 +5,7 @@
  * @num: new_value
  * Return: no return
 */
-void addnode(stack_t **head, int nun)
+void addnode(stack_t **head, int n)
 {
 
 	stack_t *new_node, *ptr;
@@ -17,7 +17,7 @@ void addnode(stack_t **head, int nun)
 		exit(0); }
 	if (ptr)
 		ptr->prev = new_node;
-	new_node->num = num;
+	new_node->n = n;
 	new_node->next = *head;
 	new_node->prev = NULL;
 	*head = new_node;
