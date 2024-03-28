@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * pall - Prints all the values on the stack
+ * f_pall - Prints all the values on the stack
  * @stack: Pointer to the stack
  * @line_number: Line number where the opcode appears
  */
