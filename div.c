@@ -11,7 +11,7 @@ void f_div(stack_t **head, unsigned int line_number)
 	int len = 0, num;
 
 	current = *head;
-	while (current)
+	while (h)
 	{
 		current = current->next;
 		len++;
